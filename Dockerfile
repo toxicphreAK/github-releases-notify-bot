@@ -1,4 +1,4 @@
-FROM node:10-alpine
+FROM node:alpine
 COPY . .
 RUN npm install
 CMD npm start
